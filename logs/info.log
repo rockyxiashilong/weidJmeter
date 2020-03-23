@@ -1,0 +1,98 @@
+2020-03-23 17:33:20.569 [main] INFO  TransmissionServiceCenter() - [registerService] the service register successfully.
+2020-03-23 17:33:20.573 [main] INFO  WeServerV2() - [WeServiceImplV2] begin to init web3j instance..
+2020-03-23 17:33:20.733 [main] INFO  ThreadPoolTaskExecutor() - Initializing ExecutorService 'web3sdk'
+2020-03-23 17:33:20.940 [main] INFO  ChannelConnections() -  add connected node: 10.107.105.134:20800
+2020-03-23 17:33:20.943 [main] INFO  ChannelConnections() -  sslCert not configured in applicationContext.xml, use default setting: classpath:node.crt  
+2020-03-23 17:33:20.943 [main] INFO  ChannelConnections() -  sslKey not configured in applicationContext.xml, use default setting: classpath:node.key  
+2020-03-23 17:33:21.724 [Thread-1] INFO  ChannelConnections() - try connect to: 10.107.105.134:20800
+2020-03-23 17:33:21.946 [nioEventLoopGroup-2-1] INFO  ConnectionCallback() -  connect 10.107.105.134:20800 success, ctx: 388368069
+2020-03-23 17:33:22.142 [nioEventLoopGroup-2-1] INFO  ConnectionCallback() -  query node version host: 10.107.105.134:20800, seq: 90d1278b18a847779b745e2579c9f002, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+2020-03-23 17:33:22.267 [web3sdk-1] INFO  ConnectionCallback() -  node: Version [buildTime=20191227 07:38:36, buildType=Linux/clang/Release, chainID=1, version=2.2.0, gitBranch=HEAD, gitCommit=21ab507e85322a0ea7ca4688f247a964cd4f2c35, supportedVersion=2.2.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20191227 07:38:36","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.2.0","Git Branch":"HEAD","Git Commit Hash":"21ab507e85322a0ea7ca4688f247a964cd4f2c35","Supported Version":"2.2.0"}}
+
+2020-03-23 17:33:22.268 [web3sdk-1] INFO  ConnectionCallback() -  support channel handshake node: Version [buildTime=20191227 07:38:36, buildType=Linux/clang/Release, chainID=1, version=2.2.0, gitBranch=HEAD, gitCommit=21ab507e85322a0ea7ca4688f247a964cd4f2c35, supportedVersion=2.2.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20191227 07:38:36","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.2.0","Git Branch":"HEAD","Git Commit Hash":"21ab507e85322a0ea7ca4688f247a964cd4f2c35","Supported Version":"2.2.0"}}
+
+2020-03-23 17:33:22.277 [web3sdk-2] INFO  ConnectionCallback() -  channel protocol handshake success, set socket channel protocol, host: 10.107.105.134:20800, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.2.0, EnumProtocol=VERSION_2]
+2020-03-23 17:33:22.285 [web3sdk-2] INFO  ConnectionCallback() -  send sub block notification request, seq: 6dca1ce6545b457d89b10dd68b8d8b57, content: ["_block_notify_1","rocky"]
+2020-03-23 17:33:22.287 [web3sdk-2] INFO  ConnectionCallback() -  query block number host: 10.107.105.134:20800, seq: 70f05f7da62b4ad4ab64a885906c5f6d, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+2020-03-23 17:33:22.293 [web3sdk-3] INFO  ConnectionCallback() -  query blocknumer, host:10.107.105.134:20800, blockNumber: 23259 
+2020-03-23 17:33:22.636 [main] INFO  WeServerV2() - [WeServiceImplV2] init web3j instance success..
+2020-03-23 17:33:22.702 [main] INFO  WeServerV2() - [queryBucketFromCns] query address form CNS successfully.
+2020-03-23 17:33:22.702 [main] INFO  WeServer() - the bucket address is 0xffb914c8b7c47e140f009d398c4717de1e2c3517
+2020-03-23 17:33:22.720 [main] INFO  BaseEngine() - DataBucket init succ
+2020-03-23 17:33:22.758 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: WeIdContract, address: 0x340afcbc63c56480d0d53fd781d184bc14648da6
+2020-03-23 17:33:22.771 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: AuthorityIssuerController, address: 0xd185168c7b390a96c0121c1a8cfd6b700869076b
+2020-03-23 17:33:22.779 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: SpecificIssuerController, address: 0x795839c75b8fb88e5ff812a1954d304139c47f0c
+2020-03-23 17:33:22.788 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: EvidenceFactory, address: 0x5add35db65d3bbd3ca54288563b01b8b73c06bdd
+2020-03-23 17:33:22.799 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: CptController, address: 0x7d9eb2752a93e504d2776bd20a41b396927a61b8
+2020-03-23 17:33:22.821 [main] INFO  BaseEngine() - WeIdContract init succ
+2020-03-23 17:33:22.835 [main] INFO  BaseEngine() - WeIdContract init succ
+2020-03-23 17:33:22.850 [main] INFO  BaseEngine() - AuthorityIssuerController init succ
+2020-03-23 17:33:22.869 [main] INFO  BaseEngine() - CptController init succ
+2020-03-23 17:33:22.889 [main] INFO  BaseEngine() - EvidenceContract init succ
+2020-03-23 17:33:22.907 [main] INFO  BaseEngine() - CptController init succ
+2020-03-23 17:33:22.932 [main] INFO  BaseEngine() - AuthorityIssuerController init succ
+2020-03-23 17:33:22.945 [main] INFO  BaseEngine() - SpecificIssuerController init succ
+2020-03-23 17:33:22.956 [main] INFO  AbstractJavaSamplerClient() - ---------------------this is create weid setupTest------------------------
+2020-03-23 17:33:22.972 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching String property:'sampleresult.default.encoding', defaulting to: ISO-8859-1
+2020-03-23 17:33:22.973 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching boolean property:'subresults.disable_renaming', defaulting to: false
+2020-03-23 17:33:22.973 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching boolean property:'sampleresult.timestamp.start', defaulting to: false
+2020-03-23 17:33:22.974 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching boolean property:'sampleresult.useNanoTime', defaulting to: true
+2020-03-23 17:33:22.974 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching int property:'sampleresult.nanoThreadSleep', defaulting to: 5000
+2020-03-23 17:33:22.974 [main] INFO  SampleResult() - Note: Sample TimeStamps are END times
+2020-03-23 17:33:22.974 [main] INFO  SampleResult() - sampleresult.default.encoding is set to ISO-8859-1
+2020-03-23 17:33:22.974 [main] INFO  SampleResult() - sampleresult.useNanoTime=true
+2020-03-23 17:33:22.974 [main] INFO  SampleResult() - sampleresult.nanoThreadSleep=5000
+2020-03-23 17:33:23.011 [main] INFO  BaseEngine() - WeIdContract init succ
+2020-03-23 17:33:23.017 [main] INFO  Async() -  default set setExeutor , pool size is 50
+2020-03-23 17:33:23.017 [main] INFO  Async() -  set setExeutor because executor null, executor is java.util.concurrent.ThreadPoolExecutor@770d0ea6[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+2020-03-23 17:33:23.221 [web3sdk-34] INFO  Service() - Receive block notify: {"blockNumber":23260,"groupID":1}
+
+2020-03-23 19:19:15.266 [main] INFO  TransmissionServiceCenter() - [registerService] the service register successfully.
+2020-03-23 19:19:15.271 [main] INFO  WeServerV2() - [WeServiceImplV2] begin to init web3j instance..
+2020-03-23 19:19:15.435 [main] INFO  ThreadPoolTaskExecutor() - Initializing ExecutorService 'web3sdk'
+2020-03-23 19:19:15.676 [main] INFO  ChannelConnections() -  add connected node: 10.107.105.134:20800
+2020-03-23 19:19:15.679 [main] INFO  ChannelConnections() -  sslCert not configured in applicationContext.xml, use default setting: classpath:node.crt  
+2020-03-23 19:19:15.679 [main] INFO  ChannelConnections() -  sslKey not configured in applicationContext.xml, use default setting: classpath:node.key  
+2020-03-23 19:19:16.416 [Thread-1] INFO  ChannelConnections() - try connect to: 10.107.105.134:20800
+2020-03-23 19:19:16.652 [nioEventLoopGroup-2-1] INFO  ConnectionCallback() -  connect 10.107.105.134:20800 success, ctx: 1455476201
+2020-03-23 19:19:16.845 [nioEventLoopGroup-2-1] INFO  ConnectionCallback() -  query node version host: 10.107.105.134:20800, seq: 84f3b1ce47b9435fa3a44a235efe45ea, content: {"jsonrpc":"2.0","method":"getClientVersion","params":[],"id":0}
+2020-03-23 19:19:16.949 [web3sdk-1] INFO  ConnectionCallback() -  node: Version [buildTime=20191227 07:38:36, buildType=Linux/clang/Release, chainID=1, version=2.2.0, gitBranch=HEAD, gitCommit=21ab507e85322a0ea7ca4688f247a964cd4f2c35, supportedVersion=2.2.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20191227 07:38:36","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.2.0","Git Branch":"HEAD","Git Commit Hash":"21ab507e85322a0ea7ca4688f247a964cd4f2c35","Supported Version":"2.2.0"}}
+
+2020-03-23 19:19:16.950 [web3sdk-1] INFO  ConnectionCallback() -  support channel handshake node: Version [buildTime=20191227 07:38:36, buildType=Linux/clang/Release, chainID=1, version=2.2.0, gitBranch=HEAD, gitCommit=21ab507e85322a0ea7ca4688f247a964cd4f2c35, supportedVersion=2.2.0], content: {"id":0,"jsonrpc":"2.0","result":{"Build Time":"20191227 07:38:36","Build Type":"Linux/clang/Release","Chain Id":"1","FISCO-BCOS Version":"2.2.0","Git Branch":"HEAD","Git Commit Hash":"21ab507e85322a0ea7ca4688f247a964cd4f2c35","Supported Version":"2.2.0"}}
+
+2020-03-23 19:19:16.961 [web3sdk-2] INFO  ConnectionCallback() -  channel protocol handshake success, set socket channel protocol, host: 10.107.105.134:20800, channel protocol: ChannelProtocol [protocol=2, nodeVersion=2.2.0, EnumProtocol=VERSION_2]
+2020-03-23 19:19:16.971 [web3sdk-2] INFO  ConnectionCallback() -  send sub block notification request, seq: 0d076a7de6124326849352ea67887d29, content: ["_block_notify_1","rocky"]
+2020-03-23 19:19:16.974 [web3sdk-2] INFO  ConnectionCallback() -  query block number host: 10.107.105.134:20800, seq: b9b5f8e6318240b2a19287223aeefc21, content: {"jsonrpc":"2.0","method":"getBlockNumber","params":[1],"id":1}
+2020-03-23 19:19:16.979 [web3sdk-3] INFO  ConnectionCallback() -  query blocknumer, host:10.107.105.134:20800, blockNumber: 23260 
+2020-03-23 19:19:17.341 [main] INFO  WeServerV2() - [WeServiceImplV2] init web3j instance success..
+2020-03-23 19:19:17.401 [main] INFO  WeServerV2() - [queryBucketFromCns] query address form CNS successfully.
+2020-03-23 19:19:17.401 [main] INFO  WeServer() - the bucket address is 0xffb914c8b7c47e140f009d398c4717de1e2c3517
+2020-03-23 19:19:17.419 [main] INFO  BaseEngine() - DataBucket init succ
+2020-03-23 19:19:17.455 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: WeIdContract, address: 0x340afcbc63c56480d0d53fd781d184bc14648da6
+2020-03-23 19:19:17.471 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: AuthorityIssuerController, address: 0xd185168c7b390a96c0121c1a8cfd6b700869076b
+2020-03-23 19:19:17.478 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: SpecificIssuerController, address: 0x795839c75b8fb88e5ff812a1954d304139c47f0c
+2020-03-23 19:19:17.486 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: EvidenceFactory, address: 0x5add35db65d3bbd3ca54288563b01b8b73c06bdd
+2020-03-23 19:19:17.496 [main] INFO  DataBucketServiceEngineV2() - [get] get address successfully, hash: 0x45af271cc31e5a1d6288aa5e68e15c02d20b48046ba37d9c278cd5ef266a0782, key: CptController, address: 0x7d9eb2752a93e504d2776bd20a41b396927a61b8
+2020-03-23 19:19:17.518 [main] INFO  BaseEngine() - WeIdContract init succ
+2020-03-23 19:19:17.530 [main] INFO  BaseEngine() - WeIdContract init succ
+2020-03-23 19:19:17.543 [main] INFO  BaseEngine() - AuthorityIssuerController init succ
+2020-03-23 19:19:17.571 [main] INFO  BaseEngine() - CptController init succ
+2020-03-23 19:19:17.587 [main] INFO  BaseEngine() - EvidenceContract init succ
+2020-03-23 19:19:17.603 [main] INFO  BaseEngine() - CptController init succ
+2020-03-23 19:19:17.615 [main] INFO  BaseEngine() - AuthorityIssuerController init succ
+2020-03-23 19:19:17.626 [main] INFO  BaseEngine() - SpecificIssuerController init succ
+2020-03-23 19:19:17.636 [main] INFO  AbstractJavaSamplerClient() - ---------------------this is create weid setupTest------------------------
+2020-03-23 19:19:17.654 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching String property:'sampleresult.default.encoding', defaulting to: ISO-8859-1
+2020-03-23 19:19:17.654 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching boolean property:'subresults.disable_renaming', defaulting to: false
+2020-03-23 19:19:17.655 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching boolean property:'sampleresult.timestamp.start', defaulting to: false
+2020-03-23 19:19:17.655 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching boolean property:'sampleresult.useNanoTime', defaulting to: true
+2020-03-23 19:19:17.656 [main] WARN  JMeterUtils() - Exception 'null' occurred when fetching int property:'sampleresult.nanoThreadSleep', defaulting to: 5000
+2020-03-23 19:19:17.656 [main] INFO  SampleResult() - Note: Sample TimeStamps are END times
+2020-03-23 19:19:17.656 [main] INFO  SampleResult() - sampleresult.default.encoding is set to ISO-8859-1
+2020-03-23 19:19:17.656 [main] INFO  SampleResult() - sampleresult.useNanoTime=true
+2020-03-23 19:19:17.656 [main] INFO  SampleResult() - sampleresult.nanoThreadSleep=5000
+2020-03-23 19:19:17.690 [main] INFO  BaseEngine() - WeIdContract init succ
+2020-03-23 19:19:17.695 [main] INFO  Async() -  default set setExeutor , pool size is 50
+2020-03-23 19:19:17.695 [main] INFO  Async() -  set setExeutor because executor null, executor is java.util.concurrent.ThreadPoolExecutor@1b11ef33[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+2020-03-23 19:19:17.767 [web3sdk-34] INFO  Service() - Receive block notify: {"blockNumber":23261,"groupID":1}
+

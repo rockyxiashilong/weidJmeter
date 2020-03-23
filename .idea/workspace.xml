@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e555614-37bf-4e38-bf6f-d09ff21f64fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/webank/weid/jmeter/WeIdService/CreateWeId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/webank/weid/jmeter/WeIdService/GetWeIDDocment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/NotoSansCJKtc-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/ca.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/fisco.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/node.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/node.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/weidentity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/apps/weid-jmeter-demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/conf/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/conf/NotoSansCJKtc-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/conf/ca.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/conf/fisco.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/conf/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/conf/node.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/conf/node.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/conf/weidentity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/Java-WebSocket-1.3.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/aio-core-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/aio-pro-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/animal-sniffer-annotations-1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/annotations-1.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/asm-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/asm-analysis-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/asm-commons-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/asm-tree-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/asm-util-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/bcprov-jdk15on-1.60.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/btf-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/byte-buddy-1.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/byte-buddy-agent-1.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/caffeine-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/checker-qual-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/codemodel-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/collections-generic-4.01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-cli-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-configuration-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-dbcp2-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-lang3-3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/commons-pool2-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/core-3.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/disruptor-3.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/druid-1.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/error_prone_annotations-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/failureaccess-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/fastjson-1.2.60.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/fontbox-2.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/gson-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/guava-28.1-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/httpclient-4.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/httpcore-4.4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/j2objc-annotations-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jackson-annotations-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jackson-core-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jackson-coreutils-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jackson-databind-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jackson-dataformat-yaml-2.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jai-imageio-core-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/javaparser-1.0.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/javapoet-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/javase-3.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jcommander-1.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jffi-1.2.14-native.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jffi-1.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jjschema-1.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jnr-constants-0.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jnr-enxio-0.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jnr-ffi-2.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jnr-posix-3.0.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jnr-unixsocket-0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jnr-x86asm-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/joda-time-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jopt-simple-4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/json-schema-core-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/json-schema-validator-2.2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jsonschema2pojo-core-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jsonschema2pojo-scalagen-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jsr305-3.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/jul-to-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/libphonenumber-6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/log4j-api-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/log4j-core-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/log4j-jcl-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/log4j-slf4j-impl-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/log4j-web-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/mailapi-1.4.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/mockito-core-2.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/msg-simple-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/netty-all-4.1.15.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/netty-tcnative-2.0.18.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/objenesis-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/oval-1.90.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/pdfbox-2.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/picocli-3.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/protobuf-java-3.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/reactive-streams-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/rhino-1.7R4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/rxjava-1.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/rxjava-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/scala-library-2.11.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/scrypt-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/snakeyaml-1.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/solcJ-all-0.4.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/spring-aop-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/spring-beans-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/spring-context-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/spring-core-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/spring-expression-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/spring-tx-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/system-rules-1.18.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/uri-template-0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/validation-api-1.0.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/web3sdk-2.1.2-0312-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/web3sdk-weevent-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/weid-contract-java-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lib/weid-java-sdk-1.6.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/all.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/com/webank/weid/jmeter/CreateWeId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/NotoSansCJKtc-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/ca.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/fisco.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/node.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/node.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/weidentity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/CreateWeId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/GetWeIDDocment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/NotoSansCJKtc-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ca.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fisco.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/node.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/node.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/weidentity.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="com.webank:weid-java-sdk:1.6.0-SNAPSHOT" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="com.webank:weid-java-sdk:1.6.0-SNAPSHOT" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+                <item name="org.fisco-bcos:web3sdk:2.1.2-0312-SNAPSHOT" type="cfea851d:ExternalSystemViewDefaultContributor$LibraryDependencyDataExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="weid-jmeter-demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/CreateWeId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="42" selection-start-column="31" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/GetWeIDDocment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/CreateWeId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/CreateWeId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/GetWeIDDocmen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/GetWeIDDocment.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="6" />
+    <option name="y" value="10" />
+    <option name="width" value="840" />
+    <option name="height" value="428" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="weid-jmeter-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weid-jmeter-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="weid-jmeter-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weid-jmeter-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weid-jmeter-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weid-jmeter-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weid-jmeter-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weid-jmeter-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weid-jmeter-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weid-jmeter-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weid-jmeter-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weid-jmeter-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="weid-jmeter-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weid-jmeter-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weid-jmeter-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weid-jmeter-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WeIdService" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584968789156" />
+    <property name="dynamic.classpath" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CreateWeId" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.webank.weid.jmeter.WeIdService.CreateWeId" />
+      <module name="weid-jmeter-demo.weid-jmeter-demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.webank.weid.jmeter.WeIdService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CreateWeId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e555614-37bf-4e38-bf6f-d09ff21f64fc" name="Default Changelist" comment="" />
+      <created>1584949078395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584949078395</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2855987" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.330373" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5008091" side_tool="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Build" sideWeight="0.49919093" weight="0.32978722" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49919093" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.2464539" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" weight="0.2961165" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" weight="0.32928804" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/CreateWeId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="32" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/GetWeIDDocmen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/CreateWeId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="31" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/webank/weid/jmeter/WeIdService/GetWeIDDocment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
