@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 
 public class GetWeIDDocment extends AbstractJavaSamplerClient {
     private static WeIdService weIdService = new WeIdServiceImpl();
-    private static String weid = weIdService.createWeId().toString();
+    private static CreateWeIdDataResult weid = weIdService.createWeId().getResult();
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -52,7 +52,8 @@ public class GetWeIDDocment extends AbstractJavaSamplerClient {
         SampleResult result = new SampleResult();
         result.setSampleLabel("get weid document");
         result.sampleStart();
-        ResponseData<WeIdDocument> rr = this.weIdService.getWeIdDocument(weid);
+        getNewLogger().info("get weid document----->"+weid.getWeId());
+        ResponseData<WeIdDocument> rr = this.weIdService.getWeIdDocument(weid.getWeId());
         if (rr.getResult() == null) {
             try {
                 throw new Exception("get weid doc fail:" +
