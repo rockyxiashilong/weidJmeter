@@ -19,7 +19,7 @@ if [ -d "http/" ];then
 echo "http file exist,delete history files"
 rm -rf http/*
 else
-mkdir /http
+mkdir http
 fi
 
 if [ ! -f "demo.jtl" ];then
