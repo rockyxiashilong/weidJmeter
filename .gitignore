@@ -10,6 +10,10 @@ Created by https://www.gitignore.io/api/vim,java,maven,gradle,java-web,intellij,
 .idea/dictionaries
 .idea/checkstyle-idea.xml
 
+#jmeter file
+*.jtl
+http/
+
 # Sensitive or high-churn files:
 .idea/**/dataSources/
 .idea/**/dataSources.ids
