@@ -15,23 +15,23 @@ cp -r ./dist/lib/* "$JMETER_HOME/dependencies/"
 cp -r ./dist/apps/* "$JMETER_HOME/dependencies/"
 fi
 #delete HTTP/*
-if [ -d "http/" ];then
+if [ -d "$JMETER_HOME/bin/http/" ];then
 echo "http file exist,delete history files"
-rm -rf http/*
+rm -rf $JMETER_HOME/bin/http/*
 else
-mkdir http
+mkdir $JMETER_HOME/bin/http
 fi
 
-if [ ! -f "demo.jtl" ];then
+if [ ! -f "$JMETER_HOME/bin/demo.jtl" ];then
 echo "demo.jtl not exist"
 else
 echo "demo.jtl exist,del..."
-rm -rf demo.jtl
+rm -rf $JMETER_HOME/bin/demo.jtl
 fi
 
 #at the jmeter home,then start jmeter auto test
-#cp demo.jmx $JMETER_HOME/bin
-#cd $JMETER_HOME/bin
+cp demo.jmx $JMETER_HOME/bin
+cd $JMETER_HOME/bin
 jmeter -n -t demo.jmx -l demo.jtl -e -o http
 
 #jmeter -n -t $JMETER_HOME/bin/demo.jmx -l $JMETER_HOME/bin/demo.jtl -e -o $JMETER_HOME/bin/HTTP
