@@ -18,10 +18,9 @@ import org.junit.Assert;
 import org.slf4j.Logger;
 
 public class QueryAuthorityIssuerInfo extends AbstractJavaSamplerClient {
-    private static volatile Common common = new Common();
     private static volatile WeIdService weIdService = new WeIdServiceImpl();
     private static volatile AuthorityIssuerService authorityIssuerService = new AuthorityIssuerServiceImpl();
-    private static volatile String privateKey = common.readPrivateKeyFromFile("ecdsa_key");
+    private static volatile String privateKey = Common.readPrivateKeyFromFile("ecdsa_key");
     private static volatile CreateWeIdDataResult weid = null;
     static {
         if (weid == null){
