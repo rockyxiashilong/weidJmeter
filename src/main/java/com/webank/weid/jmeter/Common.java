@@ -1,7 +1,6 @@
 package com.webank.weid.jmeter;
 
 import com.webank.weid.constant.JsonSchemaConstant;
-import com.webank.weid.jmeter.AuthorityIssuerService.IsAuthorityIssuer;
 import com.webank.weid.protocol.base.AuthorityIssuer;
 import com.webank.weid.protocol.base.WeIdAuthentication;
 import com.webank.weid.protocol.base.WeIdPrivateKey;
@@ -174,7 +173,7 @@ public class Common {
         InputStreamReader isr = null;
         StringBuffer privateKey = new StringBuffer();
 
-        URL fileUrl = IsAuthorityIssuer.class.getClassLoader().getResource(fileName);
+        URL fileUrl = Common.class.getClassLoader().getResource(fileName);
         if (fileUrl == null) {
             return privateKey.toString();
         }
